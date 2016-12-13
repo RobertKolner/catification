@@ -1,0 +1,54 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.cat-wrapper {
+    max-width: 768px;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.cat-image {
+    max-height: 100%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 60px;
+    display: inline-block;
+    border: 1px solid gray;
+}
+
+.cat-button {
+    box-shadow: inset 0 1px 0 0 #bbdaf7;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+    background: linear-gradient( #79bbff 5%, #378de5 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+    background-color:#79bbff;
+    border-radius: 0;
+    text-indent: 0;
+    border: 1px solid #84bbf3;
+    display: block;
+    color: #ffffff;
+    font-family: Arial, serif;
+    font-size: 23px;
+    font-weight: bold;
+    font-style: normal;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0 #528ecc;
+    position: fixed;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.cat-button:hover {
+    background: linear-gradient( #378de5 5%, #79bbff 100% );
+}

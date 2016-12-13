@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title>You've gotta be kitten me!</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1"/>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+	<div class="cat-wrapper">
+		<img src='{{ image_url }}' class="cat-image" />
+	</div>
+	<button onclick='document.location.href="/";' class="cat-button">I need more cats!</button>
+</body>
+</html>

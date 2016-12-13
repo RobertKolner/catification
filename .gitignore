@@ -1,0 +1,10 @@
+*~
+*.pyc
+
+local_settings.py
+
+/db.sqlite3
+
+/.cache/
+/.idea/
+/venv/
