@@ -1,9 +1,10 @@
 import os
 
-
 # Secret key used for a myriad of stuff
 SECRET_KEY = os.getenv('SECRET_KEY', 'cats')
 
+# Other important variables
+DEBUG = os.getenv('DEBUG') in ['1', 'true', 'True']
 
 # Python logging configuration
 LOGGING = {
@@ -27,7 +28,6 @@ LOGGING = {
         "level": 'DEBUG',
     }
 }
-
 
 # Reddit-Praw settings
 REDDIT = {
